@@ -1,0 +1,104 @@
+.resume{
+	border: 2px solid black;
+	padding: 1%;
+	margin: 1%;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	width: 94%;
+	word-wrap: break-word;
+}
+.section1{
+	border: 2px solid black;
+	padding: 2%;
+	margin: 2% 3% 2% 2%;
+	width: 40%;
+	text-align: left;
+	flex-wrap: wrap;
+	flex-direction: column;
+}
+.section1 table{
+   word-break: break-all;
+}
+.section1 img{
+	width: 20%;
+}
+.section2{
+	border: 2px solid black;
+	padding: 2%;
+	margin:  2% 2% 2% 3%;
+	width: 40%;
+	text-align: left;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 480px){
+.resume{
+	border: 2px solid black;
+	padding: 1%;
+	margin: 1%;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+	width: 94%;
+	align-content: space-around;
+	word-wrap: break-word;
+}
+.section1{
+	border: 2px solid black;
+	padding: 2%;
+	margin: 3%;
+	width: 90%;
+	text-align: left;
+	flex-wrap: wrap;
+	flex-direction: column;
+}
+.section1 table{
+   word-break: break-all;
+}
+.section1 img{
+	width: 20%;
+}
+.section2{
+	border: 2px solid black;
+	padding: 2%;
+	margin: 3%;
+	width: 90%;
+	text-align: left;
+}
+}
+
+@media only screen and (min-width: 1025px) and (max-width: 1280px){
+.resume{
+	border: 2px solid black;
+	padding: 1%;
+	margin: 1%;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	width: 94%;
+	align-content: space-around;
+	word-wrap: break-word;
+}
+.section1{
+	border: 2px solid black;
+	padding: 2%;
+	margin: 2% 3% 2% 2%;
+	width: 40%;
+	text-align: left;
+	flex-wrap: wrap;
+	flex-direction: column;
+}
+.section1 table{
+   word-break: break-all;
+}
+.section1 img{
+	width: 20%;
+}
+.section2{
+	border: 2px solid black;
+	padding: 2% 2% 2% 3%;
+	margin: 2%;
+	width: 40%;
+	text-align: left;
+}
+}
